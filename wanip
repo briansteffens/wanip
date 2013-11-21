@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CONFIG_FILE=/etc/wanip/client.conf
+
+SERVER_URL=`cat $CONFIG_FILE | grep SERVER_URL= | sed s/SERVER_URL=//`
+
+curl -s "$SERVER_URL"
+echo
