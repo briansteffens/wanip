@@ -1,9 +1,3 @@
-wanip
-=====
-
-Tiny client/server IP check scripts.
-
-
 client
 ======
 To download and install:
